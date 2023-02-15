@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+    
+        <nav>
+            <a href="index.html"><img src="./images/educare.jpg" width="100" height="100"></a>
+            
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="about.html">About</a></li>
+                <li> <a href="course.html">Course</a></li>
+                <li> <a href="blog.html">Blog</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About us</h1>
+
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>We are the largest university in the world</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut ipsum eget massa eleifend efficitur. Nulla aliquam libero quam, id ultrices ligula cursus at. Sed tortor mi, dapibus luctus leo in, ullamcorper convallis dui. Aenean dapibus magna quis eros vehicula finibus. Vestibulum vitae tincidunt quam, in elementum tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam ut orci gravida, feugiat dolor et, rutrum orci. Praesent risus ante, molestie sed aliquet et, semper quis libero. Nunc sed leo non lectus fringilla hendrerit at quis diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut eu scelerisque enim, quis maximus enim.</p>
+                    <a href="" class="hero-btn red-btn">Explore Now</a>
+                </div>
+                <div class="about-col">
+                    <img src="./images/about1.jpg">
+                </div>
+            </div>
+        </section>
+
+ <!----------footer---------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non suscipit nibh, et venenatis erat. Proin tincidunt eros mauris.</p>
+    <div class="icon">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-instagram" ></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-linkedin" ></i>
+        <p>Made with <i class="fa fa-heart-o" ></i> by piyush yadav</p>
+    </div>
+    
+
+</section>
+
+
+
+
+
+
+
+<!--- toggle for java script-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+            
+        
+    </script>
+    
+</body>
+</html>
